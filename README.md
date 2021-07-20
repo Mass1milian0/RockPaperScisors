@@ -9,3 +9,5 @@ at that point the computer will choose a random number from a range of 0 to 2, e
 at that point the gestures are compared following the winning algorithm (paper wins rock, scissors wins paper, rock wins scissors)
 
 and then the computer decides if the player has lost, won or drawn
+
+to start the algorithm simply download all the files as a zip and unzip it in a folder, from there, open index.html on a web browser
