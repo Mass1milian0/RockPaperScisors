@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock Paper Scisors</title>
+</head>
+<header>
+    <div class="points">
+        <div id="player">
+            <h2>player</h2>
+            <p id="pscore">0</p>
+        </div>
+        <div id="bot">
+            <h2>computer</h2>
+            <p id="gscore">0</p>
+        </div>
+    </div>
+</header>
+
+<body>
+    <section>
+        <div class="start">
+            <h1>rock - paper - scisors</h1>
+            <button id="bstart" onmousedown="startup()">Start</button>
+        </div>
+        <div class="ux gameout">
+            <h2 id="rps">rock, paper or scisors?</h2>
+            <div class="bgroup">
+                <button id="brock">rock</button>
+                <button id="bpap">paper</button>
+                <button id="bscis">scissors</button>
+            </div>
+            <div class="output">
+                <img class="pout" src="paper.png" />
+                <img class="gout" src="paper.png" />
+            </div>
+        </div>
+        <div class="winlose gameout">
+            <h1 id="winloseout"></h1>
+            <button id="res">Restart Game</button>
+        </div>
+    </section>
+
+    <script src="rps.js"></script>
+</body>
+
+</html>

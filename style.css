@@ -1,0 +1,130 @@
+body {
+    background: linear-gradient(90deg, blue, yellow);
+}
+
+header {
+    height: 200px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+section {
+    height: 600px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.points {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.points p {
+    text-align: center;
+    padding: 15px;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.start button {
+    border: 0;
+    height: 50px;
+    width: 200px;
+    color: white;
+    background: black;
+}
+
+.ux {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+}
+
+.ux #rps {
+    color: white;
+    text-align: center;
+}
+
+.ux .bgroup {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.ux output {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ux button {
+    border: 0px;
+    width: 150;
+    height: 50;
+    color: white;
+    background: black;
+}
+
+.output {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.output .pout {
+    transform: rotateY(180deg);
+}
+
+.winlose {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.winlose #res {
+    border: 0px;
+    width: 150;
+    height: 50;
+    color: white;
+    background: black;
+}
+.gameout{
+    opacity: 0;
+    pointer-events: none;
+}
+.gamein{
+    opacity: 1;
+    pointer-events: all;
+}
